@@ -1,5 +1,8 @@
 .project__image {
-  width: 200px;
-  height: 150px;
+  width: 509px;
+  height: 512px;
+  left: 600px;
+  position: fixed;
   opacity: 0;
+  visibility: hidden;
 }
