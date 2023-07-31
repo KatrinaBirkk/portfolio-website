@@ -1,0 +1,40 @@
+@import url(../vendor/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/root.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/nav-label.css);
+@import url(../blocks/element/__title/element__title.css);
+/* @import url(../blocks/button/__style/button__style.css); */
+@import url(../blocks/mainpage/__style/mainpage__style.css);
+@import url(../blocks/mainpage/__picture/mainpage__picture.css);
+@import url(../blocks/element/__subtitle/element__subtitle.css);
+@import url(../blocks/mainpage/__leftpart/mainpage__leftpart.css);
+@import url(../blocks/mainpage/__links/mainpage__links.css);
+@import url(../blocks/element/__icon/_ai/element__icon_ai.css);
+@import url(../blocks/element/__icon/_css/element__icon_css.css);
+@import url(../blocks/element/__icon/_figma/element__icon_figma.css);
+@import url(../blocks/element/__icon/_html/element__icon_html.css);
+@import url(../blocks/element/__icon/_js/element__icon_js.css);
+@import url(../blocks/element/__icon/_react/element__icon_react.css);
+@import url(../blocks/element/__icon/_ts/element__icon_ts.css);
+@import url(../blocks/element/__table/element__table.css);
+@import url(../blocks/element/__section/element__section.css);
+@import url(../blocks/element/__divider/element__divider.css);
+@import url(../blocks/block/__skills/block__skills.css);
+@import url(../blocks/element/__list/element__list.css);
+@import url(../blocks/element/__rectangle/element__rectangle.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__field/form__field.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/button/__arrow/button__arrow.css);
+@import url(../blocks/element/__image/element__image.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+/* @import url(../blocks/element/__image/_burger/element__image_burger.css); */
+/* @import url(../blocks/element/__image/_active/element__image_active.css); */
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__image/project__image.css);
+@import url(../blocks/project/__image/_active/project__image_active.css);

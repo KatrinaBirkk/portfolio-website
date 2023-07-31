@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  gap: 20px;
+  margin-top: 32px;
+  margin-left: 862px;
+  color: #1e1c1c;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  /* border-bottom: 1px solid #545454; */
+}

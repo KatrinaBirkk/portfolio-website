@@ -1,0 +1,18 @@
+.button__arrow {
+  position: absolute;
+  left: 372px;
+  top: 12px;
+  border: none;
+  border-color: none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 36px;
+  width: 2px;
+  background-repeat: no-repeat;
+  transition: width, 0.6s;
+  background-image: url(../../../images/Arrow.svg);
+}
+
+.button__arrow:hover {
+  width: 400px;
+}

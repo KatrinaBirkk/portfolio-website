@@ -1,0 +1,12 @@
+.element__list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 24px;
+}

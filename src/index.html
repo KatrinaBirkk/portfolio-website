@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio website Katrina Birk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="root">
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <span>Home</span>
+          <span>Skills</span>
+          <span>Projects</span>
+          <span>Contacts</span>
+        </nav>
+      </header>
+      <main>
+        <div class="mainpage__style">
+          <div class="mainpage__leftpart">
+            <h1 class="element__title">
+              Front-end developer & product designer
+            </h1>
+            <h3 class="element__subtitle">
+              Hi! I’m Katrina Birk - product designer and front-end developer
+              based in Texas, USA.
+            </h3>
+            <div class="button__style">
+              <span>See my projects</span>
+              <button class="button"></button>
+            </div>
+            <div class="mainpage__links">
+              <span>Behance |</span>
+              <span>GitHub |</span>
+              <span>LinkedIn |</span>
+              <span>CV</span>
+            </div>
+          </div>
+          <div class="mainpage__picture"></div>
+        </div>
+        <div class="block__skills">
+          <h2 class="element__title">Skills</h2>
+          <div>
+            <div class="element__table element__divider">
+              <div class="element__section">
+                <div class="element__icon_html"></div>
+                <span>HTML 5</span>
+              </div>
+              <div class="element__section">
+                <div class="element__icon_css"></div>
+                <span>CSS 3</span>
+              </div>
+              <div class="element__section">
+                <div class="element__icon_ts"></div>
+                <span>TypeScript</span>
+              </div>
+              <div class="element__section">
+                <div class="element__icon_js"></div>
+                <span>JavaScript</span>
+              </div>
+              <div class="element__section">
+                <div class="element__icon_react"></div>
+                <span>REACT</span>
+              </div>
+            </div>
+            <div class="element__table">
+              <div class="element__section">
+                <div class="element__icon_figma"></div>
+                <span>FIGMA</span>
+              </div>
+              <div class="element__section">
+                <div class="element__icon_ai"></div>
+                <span>Adobe Illustrator</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mainpage__style">
+          <div class="mainpage__leftpart">
+            <h2 class="element__title">Fe developer projects</h2>
+            <h3 class="element__subtitle">
+              Here's the list of projects I've created as a web or front-end
+              developer. These projects have helped me enhance my web
+              development skills and allowed me to create valuable solutions for
+              various industries and purposes.
+            </h3>
+            <div class="element__list"></div>
+          </div>
+          <div class="element__image"></div>
+        </div>
+        <div class="mainpage__style">
+          <div class="mainpage__leftpart">
+            <h2 class="element__title">Product design Projects</h2>
+            <h3 class="element__subtitle">
+              As a product designer, I possess a diverse set of skills that
+              enable me to conceptualize, design, and bring innovative and
+              user-centric products to life.
+            </h3>
+            <div class="element__list">
+              <div class="button__style">
+                <span>Jewelry online store DESIGN</span>
+                <!-- <button class="button"></button> -->
+              </div>
+              <div class="button__style">
+                <span>Interior studio DEsign</span>
+                <!-- <button class="button"></button> -->
+              </div>
+              <div class="button__style">
+                <span>Frequent loyalty program Design</span>
+                <!-- <button class="button"></button> -->
+              </div>
+              <div class="button__style">
+                <span>ZooHotel Design</span>
+                <!-- <button class="button"></button> -->
+              </div>
+            </div>
+          </div>
+          <div class="element__image"></div>
+        </div>
+        <div class="mainpage__style">
+          <div class="mainpage__leftpart">
+            <h2 class="element__title">If you have questions</h2>
+            <h2 class="element__title">OR want to talk about your project</h2>
+            <h3 class="element__subtitle">
+              Fill the form and I’ll be happy to talk.
+            </h3>
+          </div>
+          <div class="element__rectangle"></div>
+          <form class="form" name="requestForm" novalidate>
+            <input
+              class="form__field form__field_type_author"
+              id="name-input"
+              name="name"
+              type="text"
+              placeholder="Name"
+              maxlength="40"
+              minlength="2"
+              required
+            />
+            <span class="form__field-error author-input-error"></span>
+            <input
+              class="form__field form__field_type_occupation"
+              name="Email"
+              id="email-input"
+              type="text"
+              maxlength="200"
+              minlength="2"
+              placeholder="Email"
+              required
+            />
+            <input
+              class="form__field form__field_type_occupation"
+              name="Request"
+              id="request-input"
+              type="text"
+              maxlength="200"
+              minlength="2"
+              placeholder="Your text"
+              required
+            />
+            <span class="form__field-error occupation-input-error"></span>
+            <div class="form__button">
+              <span>SEND</span>
+              <button class="button"></button>
+            </div>
+          </form>
+        </div>
+
+        <section class="popup"></section>
+      </main>
+    </div>
+    <template id="projects">
+      <div class="project">
+        <span class="project__title"></span>
+        <img class="project__image" src="" alt="" />
+      </div>
+    </template>
+  </body>
+</html>

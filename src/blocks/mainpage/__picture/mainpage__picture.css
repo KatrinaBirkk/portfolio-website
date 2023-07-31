@@ -1,0 +1,8 @@
+.mainpage__picture {
+  margin-top: 150px;
+  width: 612px;
+  height: 562px;
+  background-image: url("../../../images/Creating_web_vector.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,7 @@
+.block__skills {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  margin-left: 32px;
+  margin-top: 132px;
+}

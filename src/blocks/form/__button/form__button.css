@@ -1,0 +1,7 @@
+.form__button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 48px;
+  margin-left: 196px;
+}

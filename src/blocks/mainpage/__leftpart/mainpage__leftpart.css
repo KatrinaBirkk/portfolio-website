@@ -1,0 +1,8 @@
+.mainpage__leftpart {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: 32px;
+  margin-top: 200px;
+  width: 440px;
+}

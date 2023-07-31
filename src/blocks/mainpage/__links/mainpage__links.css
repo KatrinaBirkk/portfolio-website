@@ -1,0 +1,5 @@
+.mainpage__links {
+  display: flex;
+  gap: 8px;
+  margin-top: 136px;
+}

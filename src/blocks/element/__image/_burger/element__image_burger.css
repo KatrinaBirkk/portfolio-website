@@ -1,0 +1,11 @@
+.element__image_burger {
+  background-image: url("../../../../images/mae-mu-I7A_pHLcQK8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* border: 2px solid black; */
+  width: 509px;
+  height: 512px;
+  margin-top: 200px;
+  opacity: 0;
+  visibility: hidden;
+}

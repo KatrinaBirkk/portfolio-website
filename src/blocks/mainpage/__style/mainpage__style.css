@@ -1,0 +1,6 @@
+.mainpage__style {
+  display: flex;
+  position: relative;
+  /* flex-direction: column; */
+  gap: 160px;
+}

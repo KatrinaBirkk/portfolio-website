@@ -1,0 +1,23 @@
+.button {
+  border: none;
+  border-color: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(../../images/button_primary.svg);
+  background-repeat: no-repeat;
+  height: 36px;
+  width: 60px;
+  animation-name: button_pulse;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 10;
+}
+
+@keyframes button_pulse {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 10px;
+  }
+}

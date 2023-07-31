@@ -1,0 +1,8 @@
+.element__table {
+  margin-top: 24px;
+  display: grid;
+  width: 1024px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 36px;
+  padding-bottom: 24px;
+}

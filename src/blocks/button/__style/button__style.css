@@ -1,0 +1,12 @@
+.button__style {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  /* width: 200px; */
+}
+
+.button__style:hover {
+  transform: scale(1.05);
+}

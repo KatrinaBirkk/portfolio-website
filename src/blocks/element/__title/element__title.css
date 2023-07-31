@@ -1,0 +1,10 @@
+.element__title {
+  color: #1e1c1c;
+  font-family: NotoSans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
