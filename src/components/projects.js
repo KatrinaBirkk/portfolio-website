@@ -18,14 +18,14 @@ function createProject({ name, link }) {
     .querySelector(".project")
     .cloneNode(true);
   const templateProjectTitle = projectElement.querySelector(".project__title");
-  const templateProjectImage = projectElement.querySelector(".project__image");
+  const templateProjectImage = document.querySelector(".element__image");
   templateProjectTitle.textContent = name;
-  templateProjectImage.src = link;
   templateProjectTitle.addEventListener("mouseover", function () {
-    templateProjectImage.classList.add("project__image_active");
+    templateProjectImage.src = link;
+    templateProjectImage.classList.add("element__image_active");
   });
   templateProjectTitle.addEventListener("mouseout", function () {
-    templateProjectImage.classList.remove("project__image_active");
+    templateProjectImage.classList.remove("element__image_active");
   });
   templateProjectTitle.addEventListener("click", function () {
     openPopup(modal);

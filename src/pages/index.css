@@ -33,8 +33,9 @@
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 /* @import url(../blocks/element/__image/_burger/element__image_burger.css); */
-/* @import url(../blocks/element/__image/_active/element__image_active.css); */
+@import url(../blocks/element/__image/_active/element__image_active.css);
 @import url(../blocks/project/project.css);
 @import url(../blocks/project/__title/project__title.css);
 @import url(../blocks/project/__image/project__image.css);
 @import url(../blocks/project/__image/_active/project__image_active.css);
+@import url(../blocks/popup/__container/popup__container.css);

@@ -2,7 +2,7 @@
   width: 509px;
   height: 512px;
   left: 600px;
-  position: fixed;
+  position: absolute;
   opacity: 0;
   visibility: hidden;
 }
