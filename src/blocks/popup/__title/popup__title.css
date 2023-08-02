@@ -1,0 +1,12 @@
+.popup__title {
+  color: #1e1c1c;
+  font-family: NotoSans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  /* margin-bottom: 24px; */
+  margin-left: 127px;
+}

@@ -3,6 +3,9 @@ import { openPopup, closePopup, showPicture, hidePicture } from "./utils";
 const projectPicture = document.querySelector(".element__image");
 const projectTemplate = document.querySelector("#projects").content;
 const modal = document.querySelector(".popup");
+const popupImage = document.querySelector(".popup__image");
+const popupText = document.querySelector(".popup__text");
+const linkToWeb = document.querySelector(".link");
 
 function createList(projectList, arrayOfData) {
   console.log(arrayOfData);
@@ -12,7 +15,7 @@ function createList(projectList, arrayOfData) {
   });
 }
 
-function createProject({ name, link }) {
+function createProject({ name, link, imagesrc, text, linkhref }) {
   console.log(name);
   const projectElement = projectTemplate
     .querySelector(".project")
@@ -29,8 +32,11 @@ function createProject({ name, link }) {
   });
   templateProjectTitle.addEventListener("click", function () {
     openPopup(modal);
+    popupImage.src = imagesrc;
+    popupText.textContent = text;
+    linkToWeb.href = linkhref;
   });
   return projectElement;
 }
 
-export { createList, createProject };
+export { createList, createProject, modal };

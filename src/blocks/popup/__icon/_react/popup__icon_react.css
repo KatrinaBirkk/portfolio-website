@@ -1,0 +1,8 @@
+.popup__icon_react {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../../../images/noun-react-2998697.svg");
+  background-size: cover;
+  align-self: flex-end;
+  /* margin-right: 40px; */
+}

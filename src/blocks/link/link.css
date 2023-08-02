@@ -1,0 +1,15 @@
+.link {
+  /* text-decoration: none; */
+  border: none;
+  border-color: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #1e1c1c;
+  margin-left: 127px;
+  font-family: NotoSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}

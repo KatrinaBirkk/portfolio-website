@@ -1,0 +1,8 @@
+.popup__icon_JS {
+  width: 32px;
+  height: 32px;
+  background-image: url("../../../../images/noun-js-file-980442.svg");
+  background-size: cover;
+  align-self: flex-end;
+  /* margin-right: 40px; */
+}

@@ -1,0 +1,7 @@
+.icon-set {
+  display: flex;
+  gap: 24px;
+  align-self: flex-end;
+  margin-right: 40px;
+  margin-top: 12px;
+}
