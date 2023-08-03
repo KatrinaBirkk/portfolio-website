@@ -30,10 +30,18 @@
               <button class="button"></button>
             </div>
             <div class="mainpage__links">
-              <span>Behance |</span>
-              <span>GitHub |</span>
-              <span>LinkedIn |</span>
-              <span>CV</span>
+              <a class="link link_small" href="www.behance.net" target="_blank"
+                >Behance |</a
+              >
+              <a class="link link_small" href="www.behance.net" target="_blank"
+                >GitHub |</a
+              >
+              <a class="link link_small" href="www.behance.net" target="_blank"
+                >LinkedIn |</a
+              >
+              <a class="link link_small" href="www.behance.net" target="_blank"
+                >CV
+              </a>
             </div>
           </div>
           <div class="mainpage__picture"></div>
@@ -84,10 +92,10 @@
               development skills and allowed me to create valuable solutions for
               various industries and purposes.
             </h3>
-            <div class="element__list"></div>
+            <div class="element__list element__list_fe"></div>
           </div>
           <!-- <img class="popup__image" src="" alt="" /> -->
-          <div><img class="element__image" src="" /></div>
+          <div><img class="element__image_fe" src="" /></div>
         </div>
         <div class="mainpage__style">
           <div class="mainpage__leftpart">
@@ -97,26 +105,9 @@
               enable me to conceptualize, design, and bring innovative and
               user-centric products to life.
             </h3>
-            <div class="element__list">
-              <div class="button__style">
-                <span>Jewelry online store DESIGN</span>
-                <!-- <button class="button"></button> -->
-              </div>
-              <div class="button__style">
-                <span>Interior studio DEsign</span>
-                <!-- <button class="button"></button> -->
-              </div>
-              <div class="button__style">
-                <span>Frequent loyalty program Design</span>
-                <!-- <button class="button"></button> -->
-              </div>
-              <div class="button__style">
-                <span>ZooHotel Design</span>
-                <!-- <button class="button"></button> -->
-              </div>
-            </div>
+            <div class="element__list element__list_de"></div>
           </div>
-          <div class="element__image"></div>
+          <div><img class="element__image_de" src="" /></div>
         </div>
         <div class="mainpage__style">
           <div class="mainpage__leftpart">
@@ -130,7 +121,7 @@
           <form class="form" name="requestForm" novalidate>
             <input
               class="form__field form__field_type_author"
-              id="name-input"
+              id="author-input"
               name="name"
               type="text"
               placeholder="Name"
@@ -140,7 +131,7 @@
             />
             <span class="form__field-error author-input-error"></span>
             <input
-              class="form__field form__field_type_occupation"
+              class="form__field form__field_type_email"
               name="Email"
               id="email-input"
               type="text"
@@ -149,17 +140,18 @@
               placeholder="Email"
               required
             />
+            <span class="form__field-error email-input-error"></span>
             <input
-              class="form__field form__field_type_occupation"
+              class="form__field form__field_type_message"
               name="Request"
-              id="request-input"
+              id="message-input"
               type="text"
               maxlength="200"
               minlength="2"
               placeholder="Your text"
               required
             />
-            <span class="form__field-error occupation-input-error"></span>
+            <span class="form__field-error message-input-error"></span>
             <div class="form__button">
               <span>SEND</span>
               <button class="button"></button>
@@ -190,7 +182,7 @@
     <template id="projects">
       <div class="project">
         <span class="project__title"></span>
-        <img class="project__image" src="" alt="" />
+        <!-- <img class="project__image" src="" alt="" /> -->
       </div>
     </template>
   </body>

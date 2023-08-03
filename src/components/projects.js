@@ -7,29 +7,29 @@ const popupImage = document.querySelector(".popup__image");
 const popupText = document.querySelector(".popup__text");
 const linkToWeb = document.querySelector(".link");
 
-function createList(projectList, arrayOfData) {
-  console.log(arrayOfData);
+function createList(projectList, arrayOfData, classname) {
+  // console.log(arrayOfData);
   arrayOfData.forEach((element) => {
-    const projectEl = createProject(element);
+    const projectEl = createProject(element, classname);
     projectList.prepend(projectEl);
   });
 }
 
-function createProject({ name, link, imagesrc, text, linkhref }) {
+function createProject({ name, link, imagesrc, text, linkhref }, classname) {
   console.log(name);
   const projectElement = projectTemplate
     .querySelector(".project")
     .cloneNode(true);
   const templateProjectTitle = projectElement.querySelector(".project__title");
-  const templateProjectImage = document.querySelector(".element__image");
+  const templateProjectImage = document.querySelector(`.${classname}`);
   templateProjectTitle.textContent = name;
   templateProjectTitle.addEventListener("mouseover", function () {
     templateProjectImage.src = link;
     templateProjectImage.classList.add("element__image_active");
   });
-  templateProjectTitle.addEventListener("mouseout", function () {
-    templateProjectImage.classList.remove("element__image_active");
-  });
+  // templateProjectTitle.addEventListener("mouseout", function () {
+  //   templateProjectImage.classList.remove("element__image_active");
+  // });
   templateProjectTitle.addEventListener("click", function () {
     openPopup(modal);
     popupImage.src = imagesrc;
