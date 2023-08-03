@@ -1,8 +1,9 @@
 .element__image_fe {
   /* border: 2px solid black; */
-  width: 509px;
-  height: 512px;
+  width: 525px;
+  height: 700px;
   margin-top: 200px;
+  object-fit: cover;
   visibility: hidden;
   opacity: 0;
 }

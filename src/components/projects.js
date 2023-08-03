@@ -11,7 +11,7 @@ function createList(projectList, arrayOfData, classname) {
   // console.log(arrayOfData);
   arrayOfData.forEach((element) => {
     const projectEl = createProject(element, classname);
-    projectList.prepend(projectEl);
+    projectList.append(projectEl);
   });
 }
 
