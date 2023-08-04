@@ -5,7 +5,7 @@ const projectTemplate = document.querySelector("#projects").content;
 const modal = document.querySelector(".popup");
 const popupImage = document.querySelector(".popup__image");
 const popupText = document.querySelector(".popup__text");
-const linkToWeb = document.querySelector(".link");
+const linkToWeb = document.querySelector(".link_popup");
 
 function createList(projectList, arrayOfData, classname) {
   // console.log(arrayOfData);
