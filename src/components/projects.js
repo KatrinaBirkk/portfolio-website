@@ -1,6 +1,5 @@
 import { openPopup, closePopup, showPicture, hidePicture } from "./utils";
 
-const projectPicture = document.querySelector(".element__image");
 const projectTemplate = document.querySelector("#projects").content;
 const modal = document.querySelector(".popup");
 const popupImage = document.querySelector(".popup__image");

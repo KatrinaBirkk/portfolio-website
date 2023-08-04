@@ -8,12 +8,8 @@
   <body class="root">
     <div class="page">
       <header class="header">
-        <nav class="nav">
-          <span>Home</span>
-          <span>Skills</span>
-          <span>Projects</span>
-          <span>Contacts</span>
-        </nav>
+        <nav class="nav" id="nav_menu"></nav>
+        <div class="nav_buttons"></div>
       </header>
       <main>
         <div class="mainpage__style">
@@ -95,7 +91,7 @@
             </div>
           </div>
         </div>
-        <div class="mainpage__style">
+        <div class="mainpage__style" id="projects_fe">
           <div class="mainpage__leftpart">
             <h2 class="element__title">Fe developer projects</h2>
             <h3 class="element__subtitle">
@@ -125,7 +121,7 @@
           <div class="mainpage__leftpart">
             <h2 class="element__title">If you have questions</h2>
             <h2 class="element__title">OR want to talk about your project</h2>
-            <h3 class="element__subtitle">
+            <h3 class="element__subtitle" id="contacts">
               Fill the form and I’ll be happy to talk.
             </h3>
           </div>
@@ -184,7 +180,7 @@
             </div>
             <h3 class="popup__title">Title</h3>
             <div class="popup__text"></div>
-            <a class="link link_popup" href="www.google.com" target="_blank"
+            <a class="link link_popup" href="" target="_blank"
               >See the project website</a
             >
           </div>
@@ -196,6 +192,10 @@
         <span class="project__title"></span>
         <!-- <img class="project__image" src="" alt="" /> -->
       </div>
+    </template>
+
+    <template id="buttons_header">
+      <div class="button_header"><span class="button__label"></span></div>
     </template>
   </body>
 </html>

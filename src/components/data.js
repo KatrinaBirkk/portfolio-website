@@ -61,3 +61,18 @@ export const designListData = [
       "https://www.behance.net/gallery/123467881/Real-Estate-concept/modules/702758731",
   },
 ];
+
+export const buttonDataList = [
+  {
+    label: "Home",
+    targetName: "nav_menu",
+  },
+  {
+    label: "Projects",
+    targetName: "projects_fe",
+  },
+  {
+    label: "Contacts",
+    targetName: "contacts",
+  },
+];
