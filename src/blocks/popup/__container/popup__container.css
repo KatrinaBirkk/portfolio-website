@@ -1,7 +1,7 @@
 .popup__container {
-  width: 95%;
+  width: 90%;
   max-width: 1080px;
-  height: 90%;
+  /* max-height: 1200px; */
   display: flex;
   gap: 18px;
   flex-direction: column;
@@ -9,4 +9,11 @@
   background-color: white;
   border-radius: 6px;
   z-index: 3;
+  /* overflow: scroll; */
+}
+
+@media screen and (max-width: 600px) {
+  .popup__container {
+    width: 90%;
+  }
 }

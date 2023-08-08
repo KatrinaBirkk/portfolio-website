@@ -1,3 +1,9 @@
 .link_popup {
   margin-bottom: 62px;
 }
+
+@media screen and (max-width: 500px) {
+  .link_popup {
+    margin-left: 24px;
+  }
+}

@@ -4,3 +4,18 @@
   /* flex-direction: column; */
   gap: 120px;
 }
+
+@media screen and (max-width: 1024px) {
+  .mainpage__style {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mainpage__style {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex-flow: column-reverse;
+  }
+}

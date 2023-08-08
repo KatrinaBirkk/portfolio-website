@@ -54,3 +54,6 @@
 @import url(../blocks/link/link_small.css);
 @import url(../blocks/link/_popup/link_popup.css);
 @import url(../blocks/nav/_buttons/nav_buttons.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/block/__footer/block__footer.css);
+@import url(../blocks/link/_contacts/link_contacts.css);

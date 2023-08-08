@@ -8,3 +8,9 @@
   text-transform: uppercase;
   margin: 0;
 }
+
+@media screen and (max-width: 821px) {
+  .element__title {
+    font-size: 28px;
+  }
+}

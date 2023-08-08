@@ -5,3 +5,10 @@
   margin-right: 40px;
   margin-top: 12px;
 }
+
+@media screen and (max-width: 500px) {
+  .icon-set {
+    align-self: flex-start;
+    margin-left: 24px;
+  }
+}

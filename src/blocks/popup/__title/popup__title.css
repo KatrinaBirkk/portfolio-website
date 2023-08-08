@@ -10,3 +10,9 @@
   /* margin-bottom: 24px; */
   margin-left: 127px;
 }
+
+@media screen and (max-width: 500px) {
+  .popup__title {
+    margin-left: 24px;
+  }
+}

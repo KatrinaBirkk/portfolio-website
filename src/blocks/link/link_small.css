@@ -1,6 +1,14 @@
 .link_small {
   margin-left: 0;
+ 
   font-size: 16px;
   text-transform: capitalize;
   text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .link_small {
+    font-size: 20px;
+    margin-top: 12px;
+  }
 }

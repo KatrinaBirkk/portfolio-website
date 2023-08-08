@@ -1,5 +1,5 @@
 .popup__text {
-  width: 600px;
+  width: 60%;
   color: #1e1c1c;
   font-family: Inter;
   font-size: 16px;
@@ -8,4 +8,12 @@
   line-height: 151%; /* 24.164px */
   margin: 0;
   margin-left: 127px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .popup__text {
+    margin-left: 24px;
+    width: 90%;
+  }
 }

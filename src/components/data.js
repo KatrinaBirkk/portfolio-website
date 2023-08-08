@@ -23,7 +23,7 @@ export const projectsListData = [
   {
     name: "Gym tracking app",
     link: "https://i.imgur.com/bVHS63P.jpg",
-    imagesrc: "",
+    imagesrc: "https://i.imgur.com/rUiQmqr.jpg",
     text: "The web application for ordering a burger is a user-friendly and interactive platform that allows customers to customize and place orders for their favorite burgers. The application is designed to provide a seamless and delightful experience, ensuring that customers can create their perfect burger with ease. ",
     linkhref: "www.google.com",
   },

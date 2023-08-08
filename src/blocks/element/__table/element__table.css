@@ -1,8 +1,14 @@
 .element__table {
   margin-top: 24px;
   display: grid;
-  width: 1024px;
+  width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 36px;
   padding-bottom: 24px;
+}
+
+@media screen and (max-width: 500px) {
+  .element__table {
+    grid-template-columns: 1fr 1fr;
+  }
 }

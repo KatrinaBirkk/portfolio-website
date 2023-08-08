@@ -1,11 +1,10 @@
 .button_close {
   width: 32px;
   height: 32px;
-  background-image: url("../../../images/X-button.svg");
+  background-image: url("../../../images/x_button.png");
   background-size: cover;
   position: absolute;
   top: -30px;
   right: -30px;
   cursor: pointer;
-  /* position: absolute; */
 }

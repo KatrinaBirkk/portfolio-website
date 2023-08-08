@@ -3,3 +3,22 @@
   gap: 8px;
   margin-top: 136px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .mainpage__links {
+    margin-top: 112px;
+    position: absolute;
+    top: 390px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mainpage__links {
+    margin-top: 112px;
+    position: absolute;
+    top: 440px;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+

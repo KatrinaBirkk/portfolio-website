@@ -3,6 +3,7 @@ import { openPopup, closePopup, showPicture, hidePicture } from "./utils";
 const projectTemplate = document.querySelector("#projects").content;
 const modal = document.querySelector(".popup");
 const popupImage = document.querySelector(".popup__image");
+const popupTitle = document.querySelector(".popup__title");
 const popupText = document.querySelector(".popup__text");
 const linkToWeb = document.querySelector(".link_popup");
 
@@ -31,6 +32,7 @@ function createProject({ name, link, imagesrc, text, linkhref }, classname) {
   // });
   templateProjectTitle.addEventListener("click", function () {
     openPopup(modal);
+    popupTitle.textContent = name;
     popupImage.src = imagesrc;
     popupText.textContent = text;
     linkToWeb.href = linkhref;
