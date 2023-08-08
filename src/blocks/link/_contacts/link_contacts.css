@@ -1,4 +1,10 @@
 .link_contacts{
   padding-right: 24px;
-  padding-top: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .link_contacts {
+    padding-right: 24px;
+  /* padding-top: 18px; */
+  }
 }
