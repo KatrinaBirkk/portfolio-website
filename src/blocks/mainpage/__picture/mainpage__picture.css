@@ -2,7 +2,7 @@
   margin-top: 150px;
   width: 612px;
   height: 562px;
-  background-image: url("../../../images/111.gif");
+  background-image: url("../../../images/Cover_animation.gif");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -18,8 +18,10 @@
 @media screen and (max-width: 600px) {
   .mainpage__picture {
     width: 100%;
-    height: 220px;
-    background-size: cover;
+    height: 280px;
+    background-image: url("../../../images/Cover_animation_small.gif");
+    background-position: center;
+    background-size: contain;
     margin-top: 32px;
   }
 }
