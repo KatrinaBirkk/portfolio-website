@@ -8,7 +8,6 @@ const popupText = document.querySelector(".popup__text");
 const linkToWeb = document.querySelector(".link_popup");
 
 function createList(projectList, arrayOfData, classname) {
-  // console.log(arrayOfData);
   arrayOfData.forEach((element) => {
     const projectEl = createProject(element, classname);
     projectList.append(projectEl);
@@ -27,9 +26,7 @@ function createProject({ name, link, imagesrc, text, linkhref }, classname) {
     templateProjectImage.src = link;
     templateProjectImage.classList.add("element__image_active");
   });
-  // templateProjectTitle.addEventListener("mouseout", function () {
-  //   templateProjectImage.classList.remove("element__image_active");
-  // });
+
   templateProjectTitle.addEventListener("click", function () {
     openPopup(modal);
     popupTitle.textContent = name;
