@@ -1,7 +1,7 @@
 .mainpage__links {
   display: flex;
   gap: 8px;
-  margin-top: 136px;
+  margin-top: 92px;
 }
 
 
@@ -9,7 +9,7 @@
   .mainpage__links {
     margin-top: 112px;
     position: absolute;
-    top: 390px;
+    top: 460px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -18,7 +18,7 @@
     position: absolute;
     top: 480px;
     flex-direction: column;
-    gap: 16px;
+    gap: 1px;
   }
 }
 

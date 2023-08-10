@@ -1,6 +1,6 @@
 .popup__container {
   width: 90%;
-  max-width: 1080px;
+  max-width: 1000px;
   /* max-height: 1200px; */
   display: flex;
   gap: 18px;

@@ -4,3 +4,9 @@
   width: 95%;
   margin: auto;
 }
+
+@media screen and (max-width: 600px) {
+  .nav{
+    justify-content: center;
+  }
+}

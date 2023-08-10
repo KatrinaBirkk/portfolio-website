@@ -3,6 +3,8 @@
   position: relative;
   /* flex-direction: column; */
   gap: 120px;
+  width: 90%;
+  margin: auto;
 }
 
 @media screen and (max-width: 1024px) {

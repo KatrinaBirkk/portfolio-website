@@ -1,0 +1,9 @@
+.element__link-divider {
+  visibility: visible;
+}
+
+@media screen and (max-width: 900px) {
+  .element__link-divider {
+    visibility: hidden;
+  }
+}

@@ -3,6 +3,7 @@
   max-width: 1080px;
   /* height: 432px; */
   object-fit: cover;
+  object-position: center;
   /* margin-bottom: 24px; */
 }
 

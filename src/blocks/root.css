@@ -4,3 +4,10 @@
   background-color: #fffbf6;
   font-family: "NotoSans", "Inter", Arial, sans-serif;
 }
+
+/* @media screen and (max-width: 600px) {
+  .root {
+    margin: 0;
+    overflow-x: hidden;
+  }
+} */

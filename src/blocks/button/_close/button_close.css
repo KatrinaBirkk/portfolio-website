@@ -4,7 +4,17 @@
   background-image: url("../../../images/x_button.png");
   background-size: cover;
   position: absolute;
-  top: 40px;
-  right: -32px;
+  top: 22px;
+  right: 22px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+.button_close {
+  width: 48px;
+  height: 48px;
+  top: 102%;
+  right: 42%;
+  cursor: pointer;
+}
 }
