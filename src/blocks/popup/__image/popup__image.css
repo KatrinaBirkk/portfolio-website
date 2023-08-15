@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 500px) {
   .popup__image {
-    height: 220px;
+    max-height: 220px;
+    object-fit: contain;
   }
 }

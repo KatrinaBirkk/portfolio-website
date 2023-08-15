@@ -3,12 +3,12 @@
   gap: 24px;
   align-self: flex-end;
   margin-right: 40px;
-  margin-top: 12px;
+  /* margin-top: 12px; */
 }
 
 @media screen and (max-width: 500px) {
   .icon-set {
-    align-self: flex-start;
+    align-self: flex-end;
     margin-left: 24px;
   }
 }
